@@ -1,0 +1,16 @@
+{
+	"name": "bizappzone-baz-ns-ui-angular",
+	"ngPackage": {
+		"lib": {
+			"entryFile": "index.ts",
+			"umdModuleIds": {
+				"@nativescript/core": "ns-core",
+				"@nativescript/angular": "ns-angular",
+				"@bizappzone/baz-ns-ui": "ns-baz-ns-ui"
+			}
+		},
+		"allowedNonPeerDependencies": [
+			"."
+		]
+	}
+}
